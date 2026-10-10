@@ -68,8 +68,14 @@ export function getPandalsSortedByDistance(pandalsList, userLat, userLng) {
 }
 
 // Calculate total sequential distance for a list of route stops
-export function calculateRouteStats(routePandals) {
-  if (!routePandals || routePandals.length < 2) {
+export function calculateRouteStats(routePandals, startPoint = null) {
+  // If a starting point is provided (e.g. user's current location), treat the
+  // route as beginning there: prepend it and include the first leg (start -> route[0]).
+  const points = startPoint
+    ? [{ ...startPoint, latitude: startPoint.lat || startPoint.latitude, longitude: startPoint.lng || startPoint.longitude }, ...routePandals]
+    : routePandals;
+
+  if (!routePandals || routePandals.length < 1) {
     return {
       totalDistanceKm: 0,
       formattedTotalDistance: "0 km",
@@ -82,9 +88,9 @@ export function calculateRouteStats(routePandals) {
   let totalDistance = 0;
   const legs = [];
 
-  for (let i = 0; i < routePandals.length - 1; i++) {
-    const p1 = routePandals[i];
-    const p2 = routePandals[i + 1];
+  for (let i = 0; i < points.length - 1; i++) {
+    const p1 = points[i];
+    const p2 = points[i + 1];
     const legDist = getDistanceKm(p1.latitude, p1.longitude, p2.latitude, p2.longitude);
     totalDistance += legDist;
     legs.push({
@@ -98,8 +104,8 @@ export function calculateRouteStats(routePandals) {
   }
 
   const bikeTravelMinutes = Math.round(totalDistance * 3.5);
-  // Bike travel + 12-15 mins darshan per pandal
-  const estimatedTimeMinutes = bikeTravelMinutes + routePandals.length * 12;
+  // Bike travel + ~12 min darshan per stop (includes starting point when provided)
+  const estimatedTimeMinutes = bikeTravelMinutes + points.length * 12;
 
   return {
     totalDistanceKm: totalDistance,

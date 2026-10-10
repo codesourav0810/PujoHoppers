@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { calculateRouteStats } from "../utils/distance";
 import { pandals } from "../data/pandals";
+import { detectUserLocation, SILIGURI_DEFAULT } from "../utils/geolocation";
 
 const RouteContext = createContext(null);
 
@@ -23,6 +24,21 @@ export function RouteProvider({ children }) {
     // Default initial trail: 4 central heritage pandals to immediately experience the feature
     return pandals.slice(0, 4);
   });
+
+  const [userLocation, setUserLocation] = useState(null);
+  const [isLocatingUser, setIsLocatingUser] = useState(false);
+
+  // Auto-detect user location on mount
+  useEffect(() => {
+    setIsLocatingUser(true);
+    detectUserLocation().then((loc) => {
+      setUserLocation(loc);
+      setIsLocatingUser(false);
+    }).catch(() => {
+      setUserLocation(SILIGURI_DEFAULT);
+      setIsLocatingUser(false);
+    });
+  }, []);
 
   const [toastMessage, setToastMessage] = useState(null);
 
@@ -102,7 +118,7 @@ export function RouteProvider({ children }) {
     showToast(`Loaded ${trailName} (${trailPandals.length} pandals)`);
   };
 
-  const stats = calculateRouteStats(route);
+  const stats = calculateRouteStats(route, userLocation);
 
   return (
     <RouteContext.Provider
@@ -120,6 +136,8 @@ export function RouteProvider({ children }) {
         clearRoute,
         loadCuratedTrail,
         toastMessage,
+        userLocation,
+        isLocatingUser,
       }}
     >
       {children}

@@ -16,7 +16,6 @@ import { useRoute } from "../context/RouteContext";
 import { pandals } from "../data/pandals";
 import MapView from "../components/MapView";
 import { buildNearestNeighborRoute, formatDuration } from "../utils/distance";
-import { detectUserLocation, SILIGURI_DEFAULT } from "../utils/geolocation";
 
 const PRESET_TRAILS = [
   {
@@ -57,48 +56,55 @@ export default function RoutePlanner() {
     moveDown,
     clearRoute,
     loadCuratedTrail,
+    userLocation,
+    isLocatingUser,
   } = useRoute();
 
   const [isLocatingTop20, setIsLocatingTop20] = useState(false);
-  const [top20UserLocation, setTop20UserLocation] = useState(null);
 
-  // Build the map polyline — if we have a user location (top-20 trail), prepend it
-  // so the blue line starts from the user's own pin
+  // Build the map polyline — prepend user location so the blue line starts from the user's own pin
   const routePolyline = useMemo(() => {
     const stops = route
       .filter((p) => p.latitude && p.longitude)
       .map((p) => [p.latitude, p.longitude]);
 
-    if (top20UserLocation && stops.length > 0) {
-      return [[top20UserLocation.lat, top20UserLocation.lng], ...stops];
+    if (userLocation && stops.length > 0) {
+      return [[userLocation.lat || userLocation.latitude, userLocation.lng || userLocation.longitude], ...stops];
     }
     return stops;
-  }, [route, top20UserLocation]);
+  }, [route, userLocation]);
 
 
   const mapCenter = useMemo(() => {
-    // When top-20 trail active, centre on user's location
-    if (top20UserLocation) return [top20UserLocation.lat, top20UserLocation.lng];
+    // Center on user's location when available
+    if (userLocation) return [userLocation.lat || userLocation.latitude, userLocation.lng || userLocation.longitude];
     if (route.length > 0 && route[0].latitude && route[0].longitude) {
       return [route[0].latitude, route[0].longitude];
     }
     return [26.715, 88.423];
-  }, [route, top20UserLocation]);
+  }, [route, userLocation]);
 
 
   const googleMapsUrl = useMemo(() => {
     if (route.length === 0) return "#";
+    const userLat = userLocation?.lat || userLocation?.latitude;
+    const userLng = userLocation?.lng || userLocation?.longitude;
+    const hasUserLocation = userLat && userLng;
+
     if (route.length === 1) {
+      if (hasUserLocation) {
+        return `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLng}&destination=${route[0].latitude},${route[0].longitude}`;
+      }
       return (
         route[0].google_maps_direction ||
         `https://www.google.com/maps/dir/?api=1&destination=${route[0].latitude},${route[0].longitude}`
       );
     }
 
-    const origin = `${route[0].latitude},${route[0].longitude}`;
+    const origin = hasUserLocation ? `${userLat},${userLng}` : `${route[0].latitude},${route[0].longitude}`;
     const destination = `${route[route.length - 1].latitude},${route[route.length - 1].longitude}`;
     const waypoints = route
-      .slice(1, -1)
+      .slice(hasUserLocation ? 0 : 1, -1)
       .map((p) => `${p.latitude},${p.longitude}`)
       .join("|");
 
@@ -107,41 +113,42 @@ export default function RoutePlanner() {
       url += `&waypoints=${waypoints}`;
     }
     return url;
-  }, [route]);
+  }, [route, userLocation]);
 
   const handleLoadTrail = (trail) => {
-    // When loading a preset trail, also clear the top-20 user location
-    setTop20UserLocation(null);
     const matched = trail.pandalNames
       .map((name) => pandals.find((p) => p.pandal_name.toLowerCase().includes(name.toLowerCase())))
       .filter(Boolean);
     loadCuratedTrail(matched, trail.name);
   };
 
-  // Wraps clearRoute to also reset user location marker
   const handleClearRoute = () => {
     clearRoute();
-    setTop20UserLocation(null);
   };
 
 
   const handleLoadTop20 = async () => {
-    setIsLocatingTop20(true);
-    // Detect user location (GPS → IP → Siliguri default)
-    const loc = await detectUserLocation();
-    setIsLocatingTop20(false);
+    // Use the already-detected global user location
+    const loc = userLocation;
+    if (!loc) {
+      // Fallback: try detecting if not yet available
+      setIsLocatingTop20(true);
+      try {
+        const newLoc = await detectUserLocation();
+        setIsLocatingTop20(false);
+        const optimizedRoute = buildNearestNeighborRoute(newLoc.lat || newLoc.latitude, newLoc.lng || newLoc.longitude, pandals.slice(0, 20));
+        loadCuratedTrail(optimizedRoute, "Top 20 Pandals");
+      } catch (e) {
+        setIsLocatingTop20(false);
+        // Ultimate fallback: Siliguri default
+        const optimizedRoute = buildNearestNeighborRoute(26.7153, 88.4239, pandals.slice(0, 20));
+        loadCuratedTrail(optimizedRoute, "Top 20 Pandals");
+      }
+      return;
+    }
 
-    // Store location so the map can show the user's pin and start the polyline from it
-    setTop20UserLocation(loc);
-
-    // Take only the first 20 pandals from siliguri_pandals.json (fixed set by JSON order)
-    const first20 = pandals.slice(0, 20);
-
-    // Apply greedy nearest-neighbor TSP:
-    // Starting at user position, always move to the closest *unvisited* pandal
-    // from the *current* position — prevents backtracking, minimises total travel
-    const optimizedRoute = buildNearestNeighborRoute(loc.lat, loc.lng, first20);
-
+    // Use the pre-detected location immediately
+    const optimizedRoute = buildNearestNeighborRoute(loc.lat || loc.latitude, loc.lng || loc.longitude, pandals.slice(0, 20));
     loadCuratedTrail(optimizedRoute, "Top 20 Pandals");
   };
 
@@ -394,8 +401,8 @@ export default function RoutePlanner() {
                   <MapView
                     pandals={route}
                     center={mapCenter}
-                    zoom={top20UserLocation ? 13 : 14}
-                    userLocation={top20UserLocation}
+                    zoom={userLocation ? 13 : 14}
+                    userLocation={userLocation}
                     routePolyline={routePolyline}
                     legBadges={
                       stats.legs
