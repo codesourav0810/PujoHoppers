@@ -1,3 +1,5 @@
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/49ada391-d0c4-4f8f-ba7d-6b8b58eb0a96" />
+
 # PujoHoppers 🪔
 
 A web app to discover Durga Puja pandals in Siliguri, check out their themes and locations, find pandals near you, and plan an optimized pandal-hopping trail.
@@ -6,7 +8,8 @@ A web app to discover Durga Puja pandals in Siliguri, check out their themes and
 <!-- Add a screenshot of the Home page showing the hero banner, logo, and the auto-scrolling Pujo Experience cards here -->
 <!-- Example: ![PujoHoppers Home Page](screenshots/home.png) -->
 <p align="center">
-  <em>(📸 Screenshot 1: Home page banner & Pujo experience carousel goes here)</em>
+  <img><img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/2d1107ad-ee97-483e-b433-7468f6969aba" />
+
 </p>
 
 ---
@@ -23,14 +26,16 @@ A web app to discover Durga Puja pandals in Siliguri, check out their themes and
 <!-- Add a screenshot of the Map page showing pandal markers across Siliguri here -->
 <!-- Example: ![Siliguri Pujo Map](screenshots/map.png) -->
 <p align="center">
-  <em>(📸 Screenshot 2: Pujo Map with markers and satellite view goes here)</em>
+  <img><img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/4d8b0ca1-4bcb-44c3-9c90-49597c381dbc" />
+
 </p>
 
 <!-- PLACEHOLDER FOR SCREENSHOT 3: Route Planner & Top 20 Trail -->
 <!-- Add a screenshot of the Route Planner page showing the Route Summary card, distance, bike duration, and stop list here -->
 <!-- Example: ![Route Planner](screenshots/route_planner.png) -->
 <p align="center">
-  <em>(📸 Screenshot 3: Route Planner summary and optimized stops go here)</em>
+  <img width="1910" height="870" alt="image" src="https://github.com/user-attachments/assets/96a97f5a-e67e-4b7a-9676-d7739be67ec7" />
+
 </p>
 
 ---
@@ -117,23 +122,6 @@ Open your browser and navigate to the local URL shown in your terminal (usually 
 npm run build
 ```
 This will compile and optimize the files into the `dist/` directory, ready to be deployed on Vercel, Netlify, or GitHub Pages.
-
----
-
-## Adding Your Screenshots
-
-To add real screenshots to the places marked above:
-1. Create a folder named `screenshots` in the root folder.
-2. Save your screenshots as:
-   - `screenshots/home.png` (Home page)
-   - `screenshots/map.png` (Map page)
-   - `screenshots/route.png` (Route Planner page)
-3. Replace the placeholder comment blocks in this README with:
-   ```markdown
-   ![Home Page](screenshots/home.png)
-   ![Map View](screenshots/map.png)
-   ![Route Planner](screenshots/route.png)
-   ```
 
 ---
 
