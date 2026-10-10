@@ -1,0 +1,695 @@
+[
+  {
+    "pandal_name": "Subrata Sangha",
+    "latitude": 26.697145, 
+    "longitude": 88.432264,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.697145, 88.432264",
+    "area": "Deshbandhupara",
+    "zone": "South-Central Siliguri",
+    "venue_address": "Deshbandhu Para, Ward 30, Siliguri - NOTE: this are approximate locations",
+    "theme": "Elaborate Design-Led Theme & Artisanal Pavilion",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Jatiya Tarun Sangha (JTS)",
+    "latitude": 26.7208,
+    "longitude": 88.4294,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.7208,88.4294",
+    "area": "Ashrampara",
+    "zone": "Central Siliguri",
+    "venue_address": "Ashrampara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Illumination Wonders & Contemporary Art",
+    "category": "Theme"
+  },
+ {
+    "pandal_name": "DadaBhai Sporting Club",
+    "latitude": 26.697968, 
+    "longitude":88.432001,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.697968, 88.432001",
+    "area": "Deshbandhupara",
+    "zone": "South-Central Siliguri",
+    "venue_address": "Deshbandhu Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "Grand Heritage Pavilion & Artisanal Splendor",
+    "category": "Theme"
+  },
+{
+    "pandal_name": "Maya Devi Club",
+    "latitude": 26.718,
+    "longitude": 88.384,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.718,88.384",
+    "area": "Matigara",
+    "zone": "West Siliguri",
+    "venue_address": "Matigara, Siliguri - NOTE: this are approximate locations",
+    "theme": "AI & Future Horizons — Technology Meets Divinity",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Tarun Tirtha Club",
+    "latitude": 26.7155,
+    "longitude": 88.448,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.7155,88.448",
+    "area": "Bharat Nagar",
+    "zone": "East Siliguri",
+    "venue_address": "Bharat Nagar / Dabgram, Siliguri - NOTE: this are approximate locations",
+    "theme": "Ancient Mayan Civilization & World Heritage",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Haiderpara Sporting Club",
+    "latitude": 26.7285,
+    "longitude": 88.4385,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.7285,88.4385",
+    "area": "Haiderpara",
+    "zone": "East Siliguri",
+    "venue_address": "Haiderpara Main Road, Siliguri - NOTE: this are approximate locations",
+    "theme": "Cosmic Odyssey & Ancient Astronomical Wonders",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "Sukanta Sporting Union Club",
+    "latitude": 26.716825, 
+    "longitude": 88.447108,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.716825, 88.447108",
+    "area": "Ranbindra Sarani",
+    "zone": "Central Siliguri",
+    "venue_address": "176, Raja Rammohan Roy Rd, Ward 38, Rabindra Sarani, Siliguri, West Bengal 734006 - NOTE: this are approximate locations",
+    "theme": "Poet Sukanta's Vision of a Better Tomorrow",
+    "category": "Community"
+  },
+    {
+    "pandal_name": "College Para Puja Committee",
+    "latitude": 26.709883, 
+    "longitude": 88.433409,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.709883, 88.433409",
+    "area": "College Para",
+    "zone": "Central Siliguri",
+    "venue_address": "College Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "Bengal Literary Renaissance & Traditional Ekchala",
+    "category": "Traditional"
+  },
+    {
+    "pandal_name": "Uttorayon Durga Puja",
+    "latitude": 26.722342, 
+    "longitude": 88.427134,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.735879, 88.398439",
+    "area": "Uttorayon Matigara",
+    "zone": "West Siliguri",
+    "venue_address": "P9QX+359, Uttorayon Twp, Siliguri, Bara Gharia, West Bengal 734010 - NOTE: this are approximate locations",
+    "theme": "bamboo craft structure",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Rathkhola Sporting Club",
+    "latitude": 26.708030,
+    "longitude": 88.440234,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.708030, 88.440234",
+    "area": "Rathkhola",
+    "zone": "Central Siliguri",
+    "venue_address": "Rathkhola Sporting Ground, Ward 22, Siliguri - NOTE: this are approximate locations",
+    "theme": "Tradition Meets Innovation in Subhas Pally Corridor",
+    "category": "Theme"
+  },
+  
+  {
+    "pandal_name": "Central Colony Durga Puja Committee",
+    "latitude": 26.682999, 
+    "longitude": 88.428981,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.682999, 88.428981",
+    "area": "Central Colony",
+    "zone": "North Siliguri",
+    "venue_address": "Barrack Colony Ground, adjacent to NJP Police Station, Siliguri - NOTE: this are approximate locations",
+    "theme": "Grand Architectural Splendor (64th Year Edition)",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "Janashree Club",
+    "latitude": 26.709407, 
+    "longitude": 88.451618,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.709407, 88.451618",
+    "area": "Ghogomali",
+    "zone": "East Siliguri",
+    "venue_address": "Ghogomali / Subhas Pally Border, Siliguri - NOTE: this are approximate locations",
+    "theme": "Terracotta Temple of Bishnupur",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "Swastika Yubak Sangha",
+    "latitude": 26.712422, 
+    "longitude": 88.422148,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.712422, 88.422148",
+    "area": "Mahananda Para",
+    "zone": "Central Siliguri",
+    "venue_address": "Rathkhola, Siliguri - NOTE: this are approximate locations",
+    "theme": "Classical Temple Craft & Festive Illumination",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "YMA Club",
+    "latitude": 26.701601, 
+    "longitude": 88.428188,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.701601, 88.428188",
+    "area": "Babupara",
+    "zone": "Central Siliguri",
+    "venue_address": "Babupara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Grand Heritage Architecture & Palace Replicas",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Jatiya Shakti Sangha & Pathagar",
+    "latitude": 26.747898,
+    "longitude": 88.416643,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.747898, 88.416643",
+    "area": "Champasari",
+    "zone": "North Siliguri",
+    "venue_address": "Champasari, Siliguri - NOTE: this are approximate locations",
+    "theme": "Vrindavan Chandrodaya Mandir & Spiritual Splendor",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "Bagdogra Durga Puja",
+    "latitude":26.700450, 
+    "longitude": 88.320535,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.700450, 88.320535",
+    "area": "Bihar More Bagdogra",
+    "zone": "West Siliguri",
+    "venue_address": "BIHAR MORE, Uttar Bagdogra, Bagdogra, West Bengal 734014 - NOTE: this are approximate locations",
+    "theme": "Durga pujo",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "Ujjwal Sangha",
+    "latitude": 26.694295, 
+    "longitude": 88.412986,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.694295, 88.412986",
+    "area": "Shaktigarh",
+    "zone": "South Siliguri",
+    "venue_address": "Shaktigarh, Ward 31, Siliguri - NOTE: this are approximate locations",
+    "theme": "Ram Mandir of Ayodhya (73rd Milestone Year)",
+    "category": "Theme"
+  },
+    {
+    "pandal_name": "GTS Club",
+    "latitude":26.713448, 
+    "longitude": 88.429050,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.713448, 88.429050",
+    "area": "GTS Club, Hakimpara",
+    "zone": "West Siliguri",
+    "venue_address": "GTS CLUB, Haren Mukherjee Rd, near Bhutia Market, College Para, Hakim Para, Siliguri, West Bengal 734001 - NOTE: this are approximate locations",
+    "theme": "Classical Shastric Sanctum with Brass Illumination",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Udayan Samiti",
+    "latitude": 26.716920, 
+    "longitude": 88.436345,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.716920, 88.436345",
+    "area": "Hakimpara",
+    "zone": "Central Siliguri",
+    "venue_address": "East Vivekananda Pally / Hakimpara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Dawn of Knowledge — The Upanishadic Path",
+    "category": "Traditional"
+  },
+   {
+    "pandal_name": "Surya Nagar Friends Union",
+    "latitude": 26.701366, 
+    "longitude": 88.442143,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.701366, 88.442143",
+    "area": "Surya Nagar",
+    "zone": "East Siliguri",
+    "venue_address": "Surya Nagar, Siliguri - NOTE: this are approximate locations",
+    "theme": "Rural Bengal Tapestry & Traditional Hogla Craft",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Abahani Chakra Sports & Cultural Club",
+    "latitude": 26.691722240279084,
+    "longitude": 88.38031236619928,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.691722240279084,88.38031236619928",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Sabeki Durga with Traditional Daker Saaj & Classical Rhythms",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Agragami Sangha",
+    "latitude": 26.717751,
+    "longitude":88.429501,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.717751, 88.429501",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Bengal Terracotta & Rural Folk Artistry",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Agrani Sangha",
+    "latitude": 26.689976, 
+    "longitude": 88.438040,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.689976,88.438040",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Harmony of Nature — Green Earth Eco Mandap",
+    "category": "Eco-Friendly"
+  },
+  {
+    "pandal_name": "Amtala Yuba Samity",
+    "latitude": 26.719578, 
+    "longitude": 88.431566,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.719578, 88.431566",
+    "area": "Ashrampara",
+    "zone": "Central Siliguri",
+    "venue_address": "Amtala, Ashrampara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Traditional Rajbari Pratima & Sacred Chandi Path",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Arunoday Sangha",
+    "latitude": 26.716745,
+    "longitude": 88.431902,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.716745, 88.431902",
+    "area": "Hakimpara",
+    "zone": "Central Siliguri",
+    "venue_address": "Hakimpara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Temple Architecture of Ancient Bengal",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Aurobinda Inter Union",
+    "latitude": 26.708200, 
+    "longitude": 88.441134,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.708200, 88.441134",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Spiritual Radiance — Sri Aurobindo's Vision of Peace",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Aurobinda Yubak Sangha",
+    "latitude": 26.706835, 
+    "longitude": 88.441332,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.706835, 88.441332",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri Town - NOTE: this are approximate locations",
+    "theme": "Dokra Metal Art & Tribal Folklore",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Babupara Sarbojanin Durga Puja",
+    "latitude": 26.715,
+    "longitude": 88.425,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.715,88.425",
+    "area": "Babupara",
+    "zone": "Central Siliguri",
+    "venue_address": "Babupara Main Road, Ward 27, Siliguri - NOTE: this are approximate locations",
+    "theme": "Terracotta Echoes of Bengal — Architectural Heritage",
+    "category": "Theme"
+  },
+  
+  {
+    "pandal_name": "Baghajatin Park Durgotsab Committee",
+    "latitude": 26.708726, 
+    "longitude": 88.431759,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.708726, 88.431759",
+    "area": "Subhas Pally",
+    "zone": "Central Siliguri",
+    "venue_address": "Baghajatin Park, Subhas Pally, Siliguri - NOTE: this are approximate locations",
+    "theme": "Monumental Heritage Pavilion & Cultural Carnival",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Balaka Club",
+    "latitude": 26.691702, 
+    "longitude": 88.419091,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.691702, 88.419091",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Shantiniketan Alpona & Classical Rabindrik Heritage",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Bandhab Sangha",
+    "latitude": 26.710403, 
+    "longitude": 88.435115,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.710403, 88.435115",
+    "area": "College Para",
+    "zone": "Central Siliguri",
+    "venue_address": "Ashutosh Mukherjee Road, College Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "Classical Sabeki Pujo & Youth Cultural Fest",
+    "category": "Traditional"
+  },
+
+
+  {
+    "pandal_name": "Sarojini Sangha",
+    "latitude": 26.709496, 
+    "longitude": 88.361689,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.709496, 88.361689",
+    "area": "Shivmandir",
+    "zone": "South Siliguri",
+    "venue_address": "Shiv Mandir, NH10, Matigara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Vedic Shastric Puja & Spiritual Chanting",
+    "category": "Heritage"
+  },
+
+  {
+    "pandal_name": "Desh Bandhu Sporting Union",
+    "latitude": 26.702663, 
+    "longitude": 88.429979,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.702663, 88.429979",
+    "area": "Deshbandhupara",
+    "zone": "South-Central Siliguri",
+    "venue_address": "Deshbandhu Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sabeki Parampara — Traditional Bengal Pratima",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Fulbari Battala Durga Puja Committee",
+    "latitude": 26.652811, 
+    "longitude": 88.417519,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.652811, 88.417519",
+    "area": "Fulbari",
+    "zone": "Suburban / Rajganj",
+    "venue_address": "Battala, Fulbari, Siliguri Suburban Area - NOTE: this are approximate locations",
+    "theme": "Asun Ektu Bhabna Niye Jaan (Environmental Conservation)",
+    "category": "Eco-Friendly"
+  },
+  {
+    "pandal_name": "Ganesh Ghosh Colony",
+    "latitude": 26.741487, 
+    "longitude": 88.419939,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.741487, 88.419939",
+    "area": "Champasari",
+    "zone": "North Siliguri",
+    "venue_address": "Champasari / Circuit House vicinity, Siliguri - NOTE: this are approximate locations",
+    "theme": "Rural Bengal Craft & Patachitra Storytelling",
+    "category": "Community"
+  },
+  
+  {
+    "pandal_name": "Yuba Jyoti Sangha",
+    "latitude": 26.691778, 
+    "longitude": 88.433514,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.691778, 88.433514",
+    "area": "Hakimpara",
+    "zone": "Central Siliguri",
+    "venue_address": "Hakimpara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sabeki Ekchala Traditional Rajbari Pujo",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Himachal Sangha",
+    "latitude": 26.694506, 
+    "longitude": 88.436087,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.694506, 88.436087",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Himalayan Serenity & Alpine Monasteries",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "B.ed College Para Durga Puja Committee",
+    "latitude": 26.705625, 
+    "longitude": 88.363715,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.705625, 88.363715",
+    "area": "Shivmandir",
+    "zone": "West Siliguri, Shivmandir",
+    "venue_address": "Shiv Mandir, NH10, Matigara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Bengal Tourism Heritage & Folk Festivities",
+    "category": "Heritage"
+  },  
+  {
+    "pandal_name": "Ramkrishna Sangha",
+    "latitude": 26.722235, 
+    "longitude": 88.426790,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.722235, 88.426790",
+    "area": "Ashram Para",
+    "zone": "East Siliguri",
+    "venue_address": "Biswajit Bhawan, Ramkrishna Rd, Ashram Para, Near Pani Tanki More (Clock Tower), Siliguri, West Bengal 734001 - NOTE: this are approximate locations",
+    "theme": "Himalayan Forest Sanctuary & Eco-conservation",
+    "category": "Theme"
+  },
+
+  {
+    "pandal_name": "Jewels Athletic Club",
+    "latitude": 26.723028, 
+    "longitude": 88.431404,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.723028, 88.431404",
+    "area": "Punjabi Para",
+    "zone": "Central-East Siliguri",
+    "venue_address": "Punjabi Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "Crystal Palace & Modern Art Installation",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Mahananda Sporting Club",
+    "latitude": 26.719099, 
+    "longitude": 88.419671,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.719099, 88.419671",
+    "area": "Mahananda Para",
+    "zone": "Central Siliguri",
+    "venue_address": "Mahananda Para, Siliguri - NOTE: this are approximate locations",
+    "theme": "River Mahananda — Lifeline of North Bengal",
+    "category": "Eco-Friendly"
+  },
+  {
+    "pandal_name": "Mansarovar Club",
+    "latitude": 26.734079,
+    "longitude": 88.433799,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.734079, 88.433799",
+    "area": "Sevoke Road",
+    "zone": "East Corridor",
+    "venue_address": "Sevoke Road, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sacred Mount Kailash & Lake Mansarovar",
+    "category": "Theme"
+  },
+
+  {
+    "pandal_name": "Hakim Para Sharbojonin Durga Puja Committee",
+    "latitude": 26.713971,
+    "longitude": 88.429412,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.713971, 88.429412",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Durga pujo",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Milanpally Sarbojanin Durga Puja Committee",
+    "latitude": 26.703971, 
+    "longitude": 88.421085,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.703971, 88.421085",
+    "area": "Milanpally",
+    "zone": "South Siliguri",
+    "venue_address": "Milanpally / SF Road vicinity, Siliguri - NOTE: this are approximate locations",
+    "theme": "Heritage Silk Weaves & Tant of Bengal",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Mitra Samilani",
+    "latitude": 26.714422, 
+    "longitude": 88.424337,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.714422, 88.424337",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "The Golden Age of Bengali Theater (Jatra & Natok)",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Nabankur Sangha",
+    "latitude": 26.734241, 
+    "longitude": 88.417036,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.734241, 88.417036",
+    "area": "Pradhannagar",
+    "zone": "West Siliguri / Junction",
+    "venue_address": "Pradhan Nagar, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sprouting Life — Environmental Renaissance",
+    "category": "Eco-Friendly"
+  },
+  {
+    "pandal_name": "Nabin Sangha",
+    "latitude": 26.709651, 
+    "longitude": 88.441818,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.709651, 88.441818",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Youth Dynamism & Traditional Sabeki Idol",
+    "category": "Community"
+  },
+  {
+    "pandal_name": " Jatiya Yuba Sangha",
+    "latitude": 26.719818, 
+    "longitude": 88.424300,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.719818, 88.424300",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Sevoke Rd, Ward 10, Janta Nagar, Siliguri, West Bengal 734001 - NOTE: this are approximate locations",
+    "theme": "Durga pujo",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Rabindra Sangha",
+    "latitude": 26.711458, 
+    "longitude": 88.439304,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.711458, 88.439304",
+    "area": "Hakimpara",
+    "zone": "Central Siliguri",
+    "venue_address": "Rabindra Sarani, Hakimpara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Tagore's Shantiniketan Aesthetic & Cultural Harmony",
+    "category": "Heritage"
+  },
+  
+  {
+    "pandal_name": "Renaissance Club",
+    "latitude": 26.700043, 
+    "longitude": 88.417955,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.700043, 88.417955",
+    "area": "Siliguri Town",
+    "zone": "Central Siliguri",
+    "venue_address": "Siliguri - NOTE: this are approximate locations",
+    "theme": "Bengal Renaissance & Social Enlightenment",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Saktigarh Pathagar",
+    "latitude": 26.697528, 
+    "longitude": 88.413141,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.697528, 88.413141",
+    "area": "Shaktigarh",
+    "zone": "South Siliguri",
+    "venue_address": "Shaktigarh, Siliguri - NOTE: this are approximate locations",
+    "theme": "The Temple of Knowledge — Books & Enlightenment",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Society Club And Pathagar",
+    "latitude": 26.696964, 
+    "longitude": 88.417802,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.696964, 88.417802",
+    "area": "Shaktigarh",
+    "zone": "South Siliguri",
+    "venue_address": "Shaktigarh, Siliguri - NOTE: this are approximate locations",
+    "theme": "Royal Bengal Folk Architecture & Puppet Craft",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Shaktigarh Yuba Sangha",
+    "latitude": 26.695459, 
+    "longitude": 88.415152,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.695459, 88.415152",
+    "area": "Shaktigarh",
+    "zone": "South Siliguri",
+    "venue_address": "Shaktigarh, Siliguri - NOTE: this are approximate locations",
+    "theme": "Durga Pujo",
+    "category": "Traditional"
+  },
+  {
+    "pandal_name": "Sanghashree Club",
+    "latitude": 26.708924, 
+    "longitude": 88.436273,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.708924, 88.436273",
+    "area": "Subhas Pally",
+    "zone": "Central Siliguri",
+    "venue_address": "Subhas Pally, Siliguri - NOTE: this are approximate locations",
+    "theme": "Classical Temple Pavilion & Devotional Dhunuchi Dance",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Sanghati Club",
+    "latitude": 26.718502, 
+    "longitude": 88.443900,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.718502, 88.443900",
+    "area": "Ghogomali",
+    "zone": "Ghogomali, Siliguri",
+    "venue_address": "PC8V+MQ4, Raja Rammohan Roy Rd, Sukanta Nagar, Ghogomali, Siliguri, West Bengal 734006 - NOTE: this are approximate locations",
+    "theme": "Solidarity & Community Harmony",
+    "category": "Community"
+  },
+  {
+    "pandal_name": "Sarada Sevok Sangha",
+    "latitude": 26.713797, 
+    "longitude": 88.445831,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.713797, 88.445831",
+    "area": "Sarada Pally",
+    "zone": "Sarada Pally, Rabindra Sarani, Siliguri",
+    "venue_address": "Sarada Pally main Road, Po, near Icchamoyee Kali Badi, Sarada Pally, Rabindra Sarani, Siliguri, West Bengal 734006 - NOTE: this are approximate locations",
+    "theme": "Holy Mother Sarada Devi's Compassion & Grace",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "Shiv Mandir Durga Puja Committee",
+    "latitude": 26.7225407,
+    "longitude": 88.3823569,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.7225407,88.3823569",
+    "area": "Matigara",
+    "zone": "West Siliguri",
+    "venue_address": "Shiv Mandir, NH10, Matigara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sacred Kailash Mansarovar Temple Complex",
+    "category": "Heritage"
+  },
+  {
+    "pandal_name": "South Colony Sporting Club",
+    "latitude": 26.679602, 
+    "longitude": 88.439774,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.679602, 88.439774",
+    "area": "South Colony",
+    "zone": "South Siliguri",
+    "venue_address": "South Colony, New Jalpaiguri / Siliguri - NOTE: this are approximate locations",
+    "theme": "South Bengal Royal Architecture & Illumination Gates",
+    "category": "Traditional"
+  },
+  
+
+  {
+    "pandal_name": "Sunrise Club",
+    "latitude": 26.696105, 
+    "longitude": 88.425438,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.696105, 88.425438",
+    "area": "Babupara",
+    "zone": "Central Siliguri",
+    "venue_address": "Babupara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Sunrise Over the Himalayas — The Golden Dawn",
+    "category": "Community"
+  },
+  {
+    "pandal_name": "Uttarayon Durga Puja",
+    "latitude": 26.7255,
+    "longitude": 88.375,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.7255,88.375",
+    "area": "Uttarayon",
+    "zone": "West Siliguri",
+    "venue_address": "Uttarayon Township, Matigara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Contemporary Grandeur & Cultural Synergy",
+    "category": "Theme"
+  },
+  {
+    "pandal_name": "Winners Club",
+    "latitude": 26.691881, 
+    "longitude": 88.424222,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.691881, 88.424222",
+    "area": "Babupara",
+    "zone": "Central Siliguri",
+    "venue_address": "Babupara, Siliguri - NOTE: this are approximate locations",
+    "theme": "Triumph of Goodness — Victory of Light Over Darkness",
+    "category": "Community"
+  },
+  {
+    "pandal_name": "Medical More Durga Puja Committee",
+    "latitude": 26.692503, 
+    "longitude": 88.370354,
+    "google_maps_direction": "https://www.google.com/maps/dir/?api=1&destination=26.692503, 88.370354",
+    "area": "Medical more ",
+    "zone": " Siliguri outskirts",
+    "venue_address": "M9RC+W49, Kawakhari, West Bengal 734012 - NOTE: this are approximate locations",
+    "theme": "Triumph of Goodness — Victory of Light Over Darkness",
+    "category": "Community"
+  }
+]

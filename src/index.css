@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-sindoor: #A50000;
+    --color-maroon: #5A0909;
+    --color-vermilion: #D62828;
+    --color-gold: #D4A84F;
+    --color-warm-cream: #FFF4DC;
+    --color-charcoal: #181313;
+    --color-pandal-black: #0D0A09;
+  }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FFF4DC;
+    color: #181313;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-bengali {
+    font-family: 'Noto Serif Bengali', serif;
+  }
+}
+
+/* Hero Zoom Animation */
+@keyframes heroZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes heroZoomDesktop {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+.hero-zoom {
+  animation: heroZoom 14s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@media (min-width: 1024px) {
+  .hero-zoom {
+    animation: heroZoomDesktop 18s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  }
+}
+
+/* Custom Gold Gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF4DC 0%, #D4A84F 50%, #E9C678 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-vermilion-gradient {
+  background: linear-gradient(135deg, #FF6B6B 0%, #D62828 50%, #A50000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Leaflet Container & Markers */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #120D0C;
+  font-family: 'DM Sans', sans-serif;
+  z-index: 1;
+}
+
+/* 100% Free OpenStreetMap dark night filter without any API keys */
+.leaflet-tile-dark .leaflet-tile {
+  filter: brightness(0.65) invert(1) contrast(2.8) hue-rotate(200deg) saturate(0.35);
+}
+
+/* Custom Marker Styling */
+.pujo-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pujo-marker:hover {
+  transform: scale(1.18);
+  z-index: 1000 !important;
+}
+
+.pujo-marker-pin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #D62828 0%, #A50000 65%, #5A0909 100%);
+  border: 2px solid #D4A84F;
+  box-shadow: 0 4px 14px rgba(165, 0, 0, 0.6), 0 0 10px rgba(212, 168, 79, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF4DC;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pujo-marker.active .pujo-marker-pin {
+  background: #FFF4DC;
+  color: #A50000;
+  border: 3px solid #D62828;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(214, 40, 40, 0.9);
+}
+
+.pujo-pulse-ring {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #D4A84F;
+  animation: markerPulse 2s infinite ease-out;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+@keyframes markerPulse {
+  0% {
+    transform: scale(0.7);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* User Location Marker */
+.user-marker-pin {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #3B82F6;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.8);
+}
+
+.user-pulse-ring {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.35);
+  animation: userPulse 2s infinite ease-out;
+}
+
+@keyframes userPulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181313;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5A0909;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A84F;
+}
+
+/* Alpana SVG pattern background utility */
+.bg-alpana-pattern {
+  background-image: radial-gradient(#D4A84F 0.75px, transparent 0.75px), radial-gradient(#D4A84F 0.75px, #181313 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.98;
+}
+
+/* Infinite Marquee Carousel */
+@keyframes infiniteMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: infiniteMarquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
